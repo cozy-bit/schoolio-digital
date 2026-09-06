@@ -1,0 +1,28 @@
+﻿@import "tailwindcss";
+@import "./styles/dev1.css";
+@import "./styles/dev2.css";
+
+@theme {
+  /* Основные градиентные и акцентные цвета */
+  --color-brand-purple: #5c3b87;
+  --color-brand-purple-dark: #3a1d5c;
+  --color-brand-orange: #e06d3b;
+  --color-brand-orange-hover: #c95726;
+
+  /* Пастельные фоны секций */
+  --color-bg-peach: #fff4ed;
+  --color-bg-blue: #f0f7ff;
+  --color-bg-green: #f3f9ed;
+
+  /* Цвета кнопок для ролей в "Perfect for" */
+  --color-role-homeschool: #5c3b87; /* Фиолетовый */
+  --color-role-supplementary: #8c2727; /* Бордовый/красный */
+  --color-role-tutor: #df7335; /* Оранжевый */
+  --color-role-teacher: #5c9732; /* Зеленый */
+  --color-role-institution: #3c77b2; /* Синий */
+}
+
+/* Плавный скролл */
+html {
+  scroll-behavior: smooth;
+}
