@@ -1,10 +1,17 @@
-{/* импортировать ваш файл тут */ }
+import AudiencePersonas from "./components/sections/AudiencePersonas"
+import FlexibleFormat from "./components/sections/FlexibleFormat"
+import TrustedPartners from "./components/sections/TrustedPartners"
+import UniqueNeedsLearner from "./components/sections/UniqueNeedsLearner"
+
 
 function App() {
 
   return (
     <>
-      {/* тег вашей секции тут */}
+      <UniqueNeedsLearner />
+      <FlexibleFormat />
+      <AudiencePersonas />  
+      <TrustedPartners />
 
     </>
   )
